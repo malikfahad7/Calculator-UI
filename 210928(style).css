@@ -1,0 +1,62 @@
+body {
+  background-image: url(background.jpg);
+  background-size: contain;
+}
+h1 {
+  border-radius: 10px;
+  background-color: rgb(8, 0, 0);
+  color: white;
+  font-size: 30px;
+}
+.mainDiv {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  padding: 10px;
+  background-color: black;
+  width: 500px;
+  height: 570px;
+  border-radius: 15px;
+}
+.row1 {
+  margin-top: 35px;
+  height: 100px;
+  width: 450px;
+  border-radius: 10px;
+  background-color: white;
+}
+tr {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100px;
+  height: 52px;
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buttonC {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100px;
+  font-size: 22px;
+  font-weight: bold;
+  height: 52px;
+  background-color: red;
+  color: white;
+}
